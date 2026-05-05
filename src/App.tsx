@@ -124,22 +124,22 @@ export default function App() {
                 Atualizado: Concurso 2026
               </div>
               
-              <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-white mb-6 md:mb-12 leading-[1] md:leading-[0.85] drop-shadow-[0_10px_30px_rgba(0,0,0,1)]">
+              <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-black tracking-tight text-white mb-6 md:mb-12 leading-[1] md:leading-[0.9] drop-shadow-[0_10px_30px_rgba(0,0,0,1)]">
                 Garante a Tua Farda <br />
                 <span className="text-green-500 block mt-2 md:mt-4 drop-shadow-[0_0_40px_rgba(34,197,94,0.6)]">em 2026.</span>
               </h1>
               
-              <p className="text-lg sm:text-xl md:text-2xl lg:text-4xl text-slate-100 mb-10 md:mb-16 max-w-xl mx-auto lg:mx-0 leading-tight font-black drop-shadow-[0_5px_15px_rgba(0,0,0,1)]">
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-slate-100 mb-10 md:mb-16 max-w-xl mx-auto lg:mx-0 leading-tight font-black drop-shadow-[0_5px_15px_rgba(0,0,0,1)]">
                 O Guia Digital <span className="bg-white text-black px-2 py-0.5 md:px-3 md:py-1 ml-1 rounded-md md:rounded-lg">PDF</span> que simplifica o caminho da aprovação. 
               </p>
               
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-6 md:gap-10 mb-10 md:mb-12">
-                <a href={checkoutUrl} className="w-full sm:w-auto bg-green-600 hover:bg-green-500 text-white px-8 py-6 md:px-12 md:py-8 rounded-2xl md:rounded-3xl text-lg md:text-xl font-black transition-all flex items-center justify-center gap-3 md:gap-4 group shadow-[0_20px_50px_-15px_rgba(34,197,94,0.8)] hover:-translate-y-1 md:hover:-translate-y-2 active:scale-95">
-                  BAIXAR GUIA <ArrowRight size={28} className="md:size-[36px] group-hover:translate-x-3 transition-transform" />
+                <a href={checkoutUrl} className="w-full sm:w-auto bg-green-600 hover:bg-green-500 text-white px-8 py-5 md:px-10 md:py-7 rounded-2xl md:rounded-3xl text-base md:text-lg font-black transition-all flex items-center justify-center gap-3 md:gap-4 group shadow-[0_20px_50px_-15px_rgba(34,197,94,0.8)] hover:-translate-y-1 md:hover:-translate-y-2 active:scale-95">
+                  BAIXAR GUIA <ArrowRight size={24} className="md:size-[30px] group-hover:translate-x-3 transition-transform" />
                 </a>
                 <div className="flex flex-col items-center sm:items-start">
-                  <div className="flex items-center gap-3 md:gap-4 font-black text-3xl md:text-5xl text-white">
-                    <span className="text-slate-600 line-through text-lg md:text-2xl decoration-red-500 decoration-2">45€</span>
+                  <div className="flex items-center gap-3 md:gap-4 font-black text-2xl md:text-4xl text-white">
+                    <span className="text-slate-600 line-through text-base md:text-xl decoration-red-500 decoration-2">45€</span>
                     19,90€
                   </div>
                   <span className="text-green-400 text-[10px] md:text-sm uppercase font-black tracking-[0.15em] md:tracking-[0.2em] mt-1 md:mt-2">Últimas Horas Nesta Oferta</span>
@@ -191,16 +191,16 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-24 items-center">
             <div className="text-center lg:text-left">
-              <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-slate-950 mb-6 md:mb-10 leading-none tracking-tighter">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-slate-950 mb-6 md:mb-10 leading-none tracking-tighter">
                 Estás aqui porque <br />
                 <span className="text-red-600">estás a falhar sozinho.</span>
               </h2>
-              <div className="space-y-6 md:space-y-8 text-lg md:text-2xl text-slate-700 leading-relaxed font-medium">
+              <div className="space-y-5 md:space-y-7 text-base md:text-xl text-slate-700 leading-relaxed font-medium">
                 <p>O tempo é o teu inimigo. Estudar sem estratégia é o caminho mais curto para a reprovação. Já viste centenas de fóruns, mas a dúvida continua lá.</p>
-                <div className="bg-red-50 p-8 md:p-12 rounded-[2.5rem] md:rounded-[4rem] border-2 border-red-100 shadow-xl shadow-red-100/30">
-                   <p className="italic font-black text-slate-900 text-xl md:text-3xl">"E se eu for eliminado na entrevista psicológica por uma falha básica?"</p>
+                <div className="bg-red-50 p-6 md:p-10 rounded-[2.5rem] md:rounded-[4rem] border-2 border-red-100 shadow-xl shadow-red-100/30">
+                   <p className="italic font-black text-slate-900 text-lg md:text-2xl">"E se eu for eliminado na entrevista psicológica por uma falha básica?"</p>
                 </div>
-                <p className="font-black text-slate-950 text-xl md:text-3xl">Reprovar em 2026 é adiar a tua estabilidade por mais 1 ano.</p>
+                <p className="font-black text-slate-950 text-lg md:text-2xl">Reprovar em 2026 é adiar a tua estabilidade por mais 1 ano.</p>
               </div>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-8">
@@ -308,8 +308,7 @@ export default function App() {
       {/* Dynamic Testimonial Marquee */}
       <section className="py-20 md:py-24 bg-slate-950 overflow-hidden border-y border-white/5">
         <div className="text-center mb-12 md:mb-16 px-4">
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white leading-none tracking-tight">O Que Dizem os <span className="text-green-500">Nossos Alunos</span></h2>
-          <p className="text-slate-500 font-bold mt-4 uppercase tracking-[0.15em] md:tracking-[0.2em] text-[10px] md:text-sm">Histórias Reais de Aprovação</p>
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-black text-white leading-none tracking-tight">O Que Dizem os <span className="text-green-500">Nossos Alunos</span></h2>
         </div>
         
         <div className="relative flex gap-6 md:gap-10 py-6 md:py-10">
@@ -347,8 +346,8 @@ export default function App() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 md:mb-28">
-             <h2 className="text-4xl sm:text-5xl md:text-8xl font-black mb-6 md:mb-10 tracking-tighter uppercase leading-none">O Mapa da <span className="text-green-500">Vaga 2026</span></h2>
-             <p className="text-lg md:text-2xl text-slate-400 max-w-2xl mx-auto font-black uppercase tracking-widest bg-white/5 py-3 px-6 md:py-4 md:px-10 rounded-full border border-white/10 inline-block">MÉTODO GNR 360</p>
+             <h2 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 md:mb-10 tracking-tighter uppercase leading-none">O Mapa da <span className="text-green-500">Vaga 2026</span></h2>
+             <p className="text-base md:text-xl text-slate-400 max-w-2xl mx-auto font-black uppercase tracking-widest bg-white/5 py-3 px-6 md:py-4 md:px-10 rounded-full border border-white/10 inline-block">MÉTODO GNR 360</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
@@ -366,8 +365,8 @@ export default function App() {
                 className="bg-white/5 border border-white/10 p-8 md:p-14 rounded-[2.5rem] md:rounded-[4rem] hover:bg-white/[0.08] transition-all group border-b-4 border-b-green-500/20"
               >
                 <div className="text-green-500 mb-6 md:mb-10 group-hover:scale-125 transition-transform origin-left">{box.icon}</div>
-                <h3 className="text-xl md:text-2xl font-black mb-4 md:mb-6 uppercase tracking-tight leading-none">{box.title}</h3>
-                <p className="text-base md:text-lg text-slate-400 font-bold leading-relaxed">{box.desc}</p>
+                <h3 className="text-lg md:text-xl font-black mb-4 md:mb-6 uppercase tracking-tight leading-none">{box.title}</h3>
+                <p className="text-sm md:text-base text-slate-400 font-bold leading-relaxed">{box.desc}</p>
               </motion.div>
             ))}
           </div>
@@ -452,16 +451,16 @@ export default function App() {
       >
         <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')]"></div>
         <div className="max-w-6xl mx-auto px-4 relative z-10 font-black uppercase">
-           <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-[8rem] font-black mb-8 md:mb-16 leading-[0.9] md:leading-[0.8] tracking-tighter drop-shadow-2xl">
+           <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-[5.5rem] font-black mb-8 md:mb-16 leading-[0.95] md:leading-[0.9] tracking-tighter drop-shadow-2xl">
              OU ENTRAS EM 2026, <br />
              <span className="text-black italic">OU VÊS OS OUTROS.</span>
            </h2>
            <div className="max-w-3xl mx-auto">
-             <p className="text-xl md:text-4xl mb-10 md:mb-16 tracking-tight leading-none drop-shadow-md px-4">
+             <p className="text-lg md:text-2xl mb-10 md:mb-16 tracking-tight leading-none drop-shadow-md px-4">
                A oportunidade não bate duas vezes. Garante o teu futuro na GNR agora.
              </p>
              <div className="px-4">
-              <a href={checkoutUrl} className="block w-full bg-black text-white py-8 md:py-12 rounded-[2.5rem] md:rounded-[4rem] text-lg md:text-2xl font-black shadow-2xl transform md:hover:-translate-y-5 transition-all border-4 border-white/10 active:scale-95">
+              <a href={checkoutUrl} className="block w-full bg-black text-white py-8 md:py-12 rounded-[2.5rem] md:rounded-[4rem] text-base md:text-xl font-black shadow-2xl transform md:hover:-translate-y-5 transition-all border-4 border-white/10 active:scale-95">
                 QUERO MINHA VAGA AGORA
               </a>
              </div>
